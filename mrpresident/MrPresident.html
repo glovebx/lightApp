@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://mr-president.co.uk/ -->
+<html lang="en-US" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths webkit chrome mac js" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Mr. President</title>
+
+	<link rel="icon" href="http://mr-president.co.uk/wp-content/themes/mrpresident/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+	<meta name="apple-mobile-web-app-title" content="Mr. President">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<link rel="apple-touch-icon" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/ios/Icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/ios/Icon-72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/ios/Icon-76.png">
+	<link rel="apple-touch-icon" sizes="80x80" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/ios/Icon-40@2x.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/ios/Icon-60@2x.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/ios/Icon-72@2x.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/ios/Icon-76@2x.png">
+
+	<link media="(device-width: 320px)" rel="apple-touch-startup-image" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/startup/apple-touch-startup-image-320x460.png">
+	<link media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/startup/apple-touch-startup-image-640x920.png">
+	<link media="(device-width: 768px) and (orientation: portrait)" rel="apple-touch-startup-image" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/startup/apple-touch-startup-image-768x1004.png">
+	<link media="(device-width: 768px) and (orientation: landscape)" rel="apple-touch-startup-image" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/startup/apple-touch-startup-image-748x1024.png">
+	<link media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/startup/apple-touch-startup-image-1536x2008.png">
+	<link media="(device-width: 1536px)  and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" href="http://mr-president.co.uk/wp-content/themes/mrpresident/icons/startup/apple-touch-startup-image-2048x1496.png">
+
+	<script src="http://s.ytimg.com/yts/jsbin/www-widgetapi-vfl5O9lF3.js" async=""></script><script type="text/javascript" async="" src="./MrPresident_files/ga.js"></script>
+
+		<script>
+		var ismobile = false;
+
+		var isReady=0;
+		var player;
+		function onYouTubeIframeAPIReady() {
+			isReady=1;
+		}
+
+		function onPlayerReady(event) {
+			event.target.playVideo();
+		}
+
+		var done = false;
+		function onPlayerStateChange(event) {
+			if ( event.data === YT.PlayerState.ENDED ) {
+				$('.youtube.playing').removeClass('playing');
+			}
+		}
+		function stopVideo() {
+			player.stopVideo();
+		}
+		function onYoutubePlay(id){
+			if(isReady==1){
+				player = new YT.Player(id, {
+					events: {
+		  				'onReady': onPlayerReady,
+		  				'onStateChange': onPlayerStateChange
+					}
+				});
+			}
+		}
+		function onYoutubeEnd(){
+			player=null;
+		}
+	</script>
+
+	
+
+<meta name="description" content="梵泥科技是O2O新媒体的领跑者。">
+<link rel="canonical" href="./MrPresident_files/MrPresident.html">
+<link rel="next" href="http://mr-president.co.uk/page/2/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mr. President">
+<meta property="og:description" content="Mr. President is a nimble creative agency. With rather big ambitions.">
+<meta property="og:url" content="http://mr-president.co.uk/">
+<meta property="og:site_name" content="Mr. President">
+<meta property="og:image" content="http://mr-president.co.uk/wp-content/uploads/2014/02/fb_share.jpg">
+
+
+<link rel="stylesheet" id="fonts-css" href="./MrPresident_files/af18f6f2-c4ce-4be2-8ba6-3e8e6dfea482.css" type="text/css" media="screen">
+<link rel="stylesheet" id="icons-css" href="./MrPresident_files/font-awesome.css" type="text/css" media="screen">
+<link rel="stylesheet" id="main-css" href="./MrPresident_files/main.css" type="text/css" media="screen">
+<script type="text/javascript" src="./MrPresident_files/modernizr.min.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://mr-president.co.uk/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://mr-president.co.uk/wp-includes/wlwmanifest.xml"> 
+<script>var basepath = "http://mr-president.co.uk/";</script><style id="holderjs-style" type="text/css"></style></head>
+
+<body class="home blog on-top" data-twttr-rendered="true">
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+	var intro    = new Image();
+	var introSrc = "http://mr-president.co.uk/wp-content/themes/mrpresident/images/intro.jpg";
+	intro.src    = introSrc;
+	intro.onload = function(){
+		document.getElementById('intro-image').style.backgroundImage = "url('" + introSrc + "')";
+		document.getElementById('loading-panel').className = "";
+	};
+//--><!]]>
+</script>
+<div class="wrapper">
+	<header class="main-header">
+		<h1 class="page-title">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="371px" height="146px" viewBox="0 0 371 146" enable-background="new 0 0 371 146" xml:space="preserve" class="svg replaced-svg">
+	<rect x="217.007" y="34.718" width="10.66" height="10.282"></rect>
+	<path d="M205.295,32.271c0-8.228,4.083-12.148,10.749-12.148h0.521V9.902c-5.938-0.261-9.229,2.829-11.271,7.583v-6.938h-10.022V45   h10.022V32.271z"></path>
+	<polygon points="149.27,15.818 162.127,34.841 162.397,34.841 175.376,15.625 175.376,45 185.455,45 185.455,0 174.521,0   162.397,19.034 150.274,0 139.333,0 139.333,45 149.27,45  "></polygon>
+	<rect x="139.333" y="64" width="88.334" height="10"></rect>
+	<path d="M331.787,98.164v9.173h14.057v37.022h10.228v-37.022h14.058v-9.173C356.6,98.164,345.249,98.164,331.787,98.164z"></path>
+	<polygon points="316.473,113.673 317.132,128.191 293.836,98.164 284.993,98.164 284.993,144.359 295.42,144.359 295.42,129.973   295.023,114.794 317.989,144.359 326.833,144.359 326.833,98.164 316.473,98.164  "></polygon>
+	<path d="M253.115,125.552h22.768v-9.041h-22.768v-8.909h24.153v-9.438h-34.252c0,15.376,0,30.82,0,46.195h35.176v-9.503h-25.077   V125.552z"></path>
+	<path d="M213.58,98.164h-18.94v46.195c5.808,0,13.134,0,18.94,0c16.169,0,22.966-11.351,22.966-23.427   C236.546,108.855,229.484,98.164,213.58,98.164z M213.58,134.856h-8.777v-27.388h8.777c9.635,0,12.803,6.666,12.803,13.331   C226.383,127.466,223.61,134.856,213.58,134.856z"></path>
+	<rect x="175.435" y="98.164" width="10.228" height="46.195"></rect>
+	<path d="M151.938,116.049c-5.94-0.528-9.965-1.321-9.965-5.544c0-3.168,3.696-5.081,8.25-5.081c3.629,0,8.118,1.188,10.691,3.894   l6.467-5.676c-4.751-5.544-10.097-7.127-17.225-7.127c-9.501,0-18.213,4.882-18.279,14.057   c-0.133,10.89,8.578,13.331,18.346,14.255c6.269,0.528,9.371,2.309,9.306,6.203c0,3.299-3.763,5.477-9.239,5.477   c-4.687,0-10.561-1.979-14.124-6.533l-6.138,6.402c3.894,6.467,12.21,9.567,20.195,9.503c9.965-0.066,19.469-4.553,19.469-14.849   C169.69,120.338,161.044,116.841,151.938,116.049z"></path>
+	<path d="M101.713,125.552h22.768v-9.041h-22.768v-8.909h24.153v-9.438H91.615c0,15.376,0,30.82,0,46.195h35.175v-9.503h-25.077   V125.552z"></path>
+	<path d="M84.088,113.737c0-8.116-5.938-15.573-17.092-15.573c-7.457,0-14.387,0-21.911,0v46.195h10.296v-15.178h7.457   l11.812,15.178h11.417v-0.792l-12.67-15.31C82.241,125.09,84.023,119.745,84.088,113.737z M67.127,120.471H55.381v-13.464h11.615   c4.817,0,6.864,3.827,6.929,6.995C73.925,116.905,71.88,120.471,67.127,120.471z"></path>
+	<path d="M22.051,98.164c-7.326,0-14.387,0-21.778,0v46.195h10.294v-13.066h11.483c11.746-0.131,17.687-7.326,17.687-16.565   C39.738,105.819,33.864,98.164,22.051,98.164z M22.051,121.855H10.568v-13.925h11.483c4.884,0,7.391,3.301,7.391,6.997   C29.442,118.622,27,121.855,22.051,121.855z"></path>
+</svg>
+					</h1>
+		<button class="nav-button" id="nav-btn"><span>Menu</span></button>
+		<nav style="height: 843px;">
+			<div class="nav-logo"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="371px" height="146px" viewBox="0 0 371 146" enable-background="new 0 0 371 146" xml:space="preserve" class="svg replaced-svg">
+	<rect x="217.007" y="34.718" width="10.66" height="10.282"></rect>
+	<path d="M205.295,32.271c0-8.228,4.083-12.148,10.749-12.148h0.521V9.902c-5.938-0.261-9.229,2.829-11.271,7.583v-6.938h-10.022V45   h10.022V32.271z"></path>
+	<polygon points="149.27,15.818 162.127,34.841 162.397,34.841 175.376,15.625 175.376,45 185.455,45 185.455,0 174.521,0   162.397,19.034 150.274,0 139.333,0 139.333,45 149.27,45  "></polygon>
+	<rect x="139.333" y="64" width="88.334" height="10"></rect>
+	<path d="M331.787,98.164v9.173h14.057v37.022h10.228v-37.022h14.058v-9.173C356.6,98.164,345.249,98.164,331.787,98.164z"></path>
+	<polygon points="316.473,113.673 317.132,128.191 293.836,98.164 284.993,98.164 284.993,144.359 295.42,144.359 295.42,129.973   295.023,114.794 317.989,144.359 326.833,144.359 326.833,98.164 316.473,98.164  "></polygon>
+	<path d="M253.115,125.552h22.768v-9.041h-22.768v-8.909h24.153v-9.438h-34.252c0,15.376,0,30.82,0,46.195h35.176v-9.503h-25.077   V125.552z"></path>
+	<path d="M213.58,98.164h-18.94v46.195c5.808,0,13.134,0,18.94,0c16.169,0,22.966-11.351,22.966-23.427   C236.546,108.855,229.484,98.164,213.58,98.164z M213.58,134.856h-8.777v-27.388h8.777c9.635,0,12.803,6.666,12.803,13.331   C226.383,127.466,223.61,134.856,213.58,134.856z"></path>
+	<rect x="175.435" y="98.164" width="10.228" height="46.195"></rect>
+	<path d="M151.938,116.049c-5.94-0.528-9.965-1.321-9.965-5.544c0-3.168,3.696-5.081,8.25-5.081c3.629,0,8.118,1.188,10.691,3.894   l6.467-5.676c-4.751-5.544-10.097-7.127-17.225-7.127c-9.501,0-18.213,4.882-18.279,14.057   c-0.133,10.89,8.578,13.331,18.346,14.255c6.269,0.528,9.371,2.309,9.306,6.203c0,3.299-3.763,5.477-9.239,5.477   c-4.687,0-10.561-1.979-14.124-6.533l-6.138,6.402c3.894,6.467,12.21,9.567,20.195,9.503c9.965-0.066,19.469-4.553,19.469-14.849   C169.69,120.338,161.044,116.841,151.938,116.049z"></path>
+	<path d="M101.713,125.552h22.768v-9.041h-22.768v-8.909h24.153v-9.438H91.615c0,15.376,0,30.82,0,46.195h35.175v-9.503h-25.077   V125.552z"></path>
+	<path d="M84.088,113.737c0-8.116-5.938-15.573-17.092-15.573c-7.457,0-14.387,0-21.911,0v46.195h10.296v-15.178h7.457   l11.812,15.178h11.417v-0.792l-12.67-15.31C82.241,125.09,84.023,119.745,84.088,113.737z M67.127,120.471H55.381v-13.464h11.615   c4.817,0,6.864,3.827,6.929,6.995C73.925,116.905,71.88,120.471,67.127,120.471z"></path>
+	<path d="M22.051,98.164c-7.326,0-14.387,0-21.778,0v46.195h10.294v-13.066h11.483c11.746-0.131,17.687-7.326,17.687-16.565   C39.738,105.819,33.864,98.164,22.051,98.164z M22.051,121.855H10.568v-13.925h11.483c4.884,0,7.391,3.301,7.391,6.997   C29.442,118.622,27,121.855,22.051,121.855z"></path>
+</svg></div>
+		<ul class="navigation"><li id="menu-item-51" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-51 current_page_item"><a href="./MrPresident_files/MrPresident.html">Everything</a></li>
+<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="http://mr-president.co.uk/mr-president/">Mr. Who?</a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://mr-president.co.uk/our-work/">Our work</a></li>
+<li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="http://mr-president.co.uk/the-journal/">The Journal</a></li>
+<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="http://mr-president.co.uk/say-hello/">Say hello</a></li>
+</ul>		</nav>
+	</header>
+	<main class="">
+<section class="overlay hidden"></section>
+
+
+<div class="mr-header">
+    <p>梵泥 科技<br><span>O2O新媒体联盟<br>
+领跑者<br>
+</span></p>
+    <p></p>
+</div>
+
+<div class="home-grid grid-2 grid list">
+    <div class="wrap wrap-67 neg-margin">
+
+    	<article class="block block-100 project">
+	    <div class="thumb">
+	        	        <div class="video vimeo" data-vid="119949933">
+	            <iframe id="119949933" src="./MrPresident_files/saved_resource.html" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+	            <div class="video-thumb">
+	                <img src="./MrPresident_files/download.png" alt="This is what we do.">
+	                <button>播放</button>
+	            </div>
+	        </div>
+	        	    </div>
+	    <header>
+	        <a href="http://mr-president.co.uk/project/get-mr-president/">
+	            <h1>这是我们在做的事情。</h1>
+	        </a>
+	        <span class="details">
+	            <a class="tag" href="">showreel</a>, <a class="tag" href="">梵泥科技</a>
+	        </span>
+	    </header>
+	</article>
+
+    <div class="block block-50 twitter space-left" style="height: 562px;">
+        <p class="tweet">The APY Lands. They have nothing to connect them to the world - please help these Aussie kids get a proper deal: <a href="https://www.mycause.com.au/page/102283/amataananguschoolfundraising" target="_blank">https://t.co/5nP78BvdzI</a></p>
+        <a class="details" href="https://twitter.com/laurajaybee/status/597480617564057601" target="_blank">
+            <i class="fa fa-twitter"></i>
+            <span class="name">laura jordan bambach</span>
+            <span class="screen-name">@laurajaybee</span>
+            <time datetime="2015-05-10 19:17:34" pubdate="">10th May, 2015</time>
+        </a>
+    </div>
+
+    <article class="block block-100 thumb-post journal">
+                <a href="http://mr-president.co.uk/grey-goose-ski/">
+            <div class="thumb">
+                <img width="640" height="640" src="./MrPresident_files/courchejourno1.jpg" class="attachment-thumbnail wp-post-image" alt="Grey Goose Ski">            </div>
+            <header>
+                <div>
+                    <h1>Grey Goose Ski </h1>
+                    <span class="author">Posted by Mr. President</span>
+                    <time datetime="2015-04-14 08:06:14" pubdate="">14th April, 2015</time>
+                </div>
+            </header>
+        </a>
+    </article>
+
+    	<article class="block block-75 space-left project">
+	    <div class="thumb">
+	        	        <a href="http://mr-president.co.uk/project/zoopla-size-please/">
+	            <img src="./MrPresident_files/zoopla1.jpg" alt="Zoopla-Size Me Please!">
+	            <div class="excerpt">
+	                <p>Smart gets their property seen by everyone. </p>
+	            </div>
+	        </a>
+	        	    </div>
+	    <header>
+	        <a href="http://mr-president.co.uk/project/zoopla-size-please/">
+	            <h1>Zoopla-Size Me Please!</h1>
+	        </a>
+	        <span class="details">
+	            <a class="tag" href="http://mr-president.co.uk/tag/integrated-campaign/">Integrated Campaign</a>, <a class="tag" href="http://mr-president.co.uk/tag/zoopla/">Zoopla</a>
+	        </span>
+	    </header>
+	</article>
+
+</div>
+
+<div class="wrap wrap-33">
+
+    <div class="block block-100 instagram">
+        <a href="https://instagram.com/p/2YxPeTgUx1/" target="_blank">
+            <img src="./MrPresident_files/11235846_1596673673922128_474142553_n.jpg" alt="Instagram shot">
+        </a>
+    </div>
+
+    <article class="block block-100 no-thumb-post tall journal" style="height: 1114px;">
+                <a href="http://mr-president.co.uk/weve-got-one-britains-influential-people/">
+            <header>
+                <h1>We've got one of Debrett's 500 most influential people</h1>
+                <span class="author">Posted by Mr. President</span>
+                <time datetime="2015-01-26 11:43:50" pubdate="">26th January, 2015</time>
+            </header>
+        </a>
+    </article>
+
+    <div class="block block-100 twitter" style="height: 557px;">
+        <p class="tweet">My mum is fundraising to get young Aboriginal kids in the APY Lands on the internet. Please support at <a href="https://www.mycause.com.au/page/102283/amataananguschoolfundraising" target="_blank">https://t.co/5nP78BvdzI</a> if you can!</p>
+        <a class="details" href="https://twitter.com/laurajaybee/status/597480133050642432" target="_blank">
+            <i class="fa fa-twitter"></i>
+            <span class="name">laura jordan bambach</span>
+            <span class="screen-name">@laurajaybee</span>
+            <time datetime="2015-05-10 19:15:39" pubdate="">10th May, 2015</time>
+        </a>
+    </div>
+
+</div>
+
+<div class="block block-100 about right">
+    <div class="copy white">
+        <div>
+            <div>
+                <p>WE DO ALL THE CREATIVE THINGS PEOPLE ARE ASKING FOR BUT NO-ONE QUITE KNOWS HOW TO MAKE</p>
+                <p>That could be: a reality show, a proper social strategy, a flying robot, a beautiful site, a genuinely useful app, a cunning stunt, a bit of thought leadership, some techy cleverness, an effectiveness platform, CRM wizardry, or even a telly ad. <br>
+</p>
+            </div>
+        </div>
+    </div>
+    <div class="pic">
+        <img src="./MrPresident_files/mrp3.jpg" alt="Mr President">
+    </div>
+</div>
+
+	<article class="block block-67 space-left project">
+	    <div class="thumb">
+	        	        <div class="video vimeo" data-vid="124417544">
+	            <iframe id="124417544" src="./MrPresident_files/saved_resource.html" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+	            <div class="video-thumb">
+	                <img src="./MrPresident_files/CaseStudiesThumb_Template1.jpg" alt="Nationwide: Supporting Real Life ">
+	                <button>Play</button>
+	            </div>
+	        </div>
+	        	    </div>
+	    <header>
+	        <a href="http://mr-president.co.uk/project/nationwide-supporting-real-life/">
+	            <h1>Nationwide: Supporting Real Life </h1>
+	        </a>
+	        <span class="details">
+	            <a class="tag" href="http://mr-president.co.uk/tag/film/">film</a>, <a class="tag" href="http://mr-president.co.uk/tag/nationwide/">Nationwide</a>
+	        </span>
+	    </header>
+	</article>
+
+<article class="block block-33 no-thumb-post short journal" style="height: 560px;">
+        <a href="http://mr-president.co.uk/creative-agency-of-the-year-by-the-drum/">
+        <header>
+            <h1> ‘Creative Agency of the Year’ </h1>
+            <span class="author">Posted by Mr. President</span>
+            <time datetime="2015-01-09 15:20:25" pubdate="">9th January, 2015</time>
+        </header>
+    </a>
+</article>
+
+<div class="block block-33 instagram">
+    <a href="https://instagram.com/p/2GxrO6AUwa/" target="_blank">
+        <img src="./MrPresident_files/11190329_1645043109058925_1370567252_n.jpg" alt="Instagram shot">
+    </a>
+</div>
+
+<div class="block block-33 twitter" style="height: 560px;">
+    <p class="tweet">When Andy Murray first emerged many predicted clay would be his best surface. Maybe finally it will be. Awesome achievement. <a href="https://twitter.com/search?q=%23MurrayvNadal&src=typd" target="_blank">#MurrayvNadal</a></p>
+    <a class="details" href="https://twitter.com/petejackson/status/597472654065586176" target="_blank">
+        <i class="fa fa-twitter"></i>
+        <span class="name">Pete Jackson</span>
+        <span class="screen-name">@petejackson</span>
+        <time datetime="2015-05-10 18:45:55" pubdate="">10th May, 2015</time>
+    </a>
+</div>
+
+	<article class="block block-67 project">
+	    <div class="thumb">
+	        	        <div class="video vimeo" data-vid="124401963">
+	            <iframe id="124401963" src="./MrPresident_files/saved_resource.html" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+	            <div class="video-thumb">
+	                <img src="./MrPresident_files/CaseStudiesThumb_Template.jpg" alt="The Body Shop: Mother&#39;s Day ">
+	                <button>Play</button>
+	            </div>
+	        </div>
+	        	    </div>
+	    <header>
+	        <a href="http://mr-president.co.uk/project/body-shop-treat-like-queen/">
+	            <h1>The Body Shop: Mother's Day </h1>
+	        </a>
+	        <span class="details">
+	            <a class="tag" href="http://mr-president.co.uk/tag/social-media/">social media</a>, <a class="tag" href="http://mr-president.co.uk/tag/the-body-shop/">The Body Shop</a>
+	        </span>
+	    </header>
+	</article>
+</div>    </main>
+    <footer class="main-footer">
+        <div class="top">
+            <ul class="navigation"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-51 current_page_item"><a href="./MrPresident_files/MrPresident.html">Everything</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="http://mr-president.co.uk/mr-president/">Mr. Who?</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://mr-president.co.uk/our-work/">Our work</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="http://mr-president.co.uk/the-journal/">The Journal</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="http://mr-president.co.uk/say-hello/">Say hello</a></li>
+</ul>        </div>
+        <div class="bottom">
+                    <div class="contacts"><p>Come and say hello at <a title="Google Maps - Mr President directions" href="https://www.google.co.uk/maps?t=m&sll=51.5148886,-0.1329943&sspn=0.0051277,0.0109864&cid=0xc0da833670fb871b&output=classic&dg=opt" target="_blank">12 Soho Square</a>, by <a title="Write an email to Mr. President" href="mailto:hello@mr-president.co.uk">email</a>, or give us a call on <a href="tel:+442077437360">+44 207 734 7306</a></p>
+</div>
+                    <ul class="social-networks">
+                            <li data-color="#32ccfe">
+                </li>
+                            <li data-color="#a78061">
+                </li>
+                            <li data-color="#1bb7ea">
+                </li>
+                            <li data-color="#007bb6">
+                </li>
+                            <li data-color="#3b5997">
+                </li>
+                        </ul>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="./MrPresident_files/all.min.js"></script>
+<script type="text/javascript" src="./MrPresident_files/main.js"></script>
+
+</body></html>
